@@ -1,0 +1,22 @@
+Challenge of the Day: Make this program work!
+
+Program 4-1 (test_average.py):
+def main():
+	# Get the 3 test scores.
+	test1 = float(input('Enter the score for test 1: ')
+	test2 = float(input('Enter the score for test 2: ')
+	test13= float(input('Enter the score for test 3: ')
+	
+	# Calculate the average test score.
+	average = (test1 + test2 + test3) / 3.0
+	
+	# Print the average.
+	print('The average score is', average)
+
+	# If the average is 95 or greater,
+	# congratulate the user.
+	if average >= 95:
+		print('Congratulations!')
+		print('That is a great average!')
+# Call the main function. 
+main()
