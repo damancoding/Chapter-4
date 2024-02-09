@@ -1,0 +1,51 @@
+Class 1/31/2024		Chapter 4: Decision Structures and Boolean Logic
+
+"The way this semester is setup, each chapter is due before the next class. I'm going to start grading next week. We've done 4 chapters (up to this point) and next week will be Chapter 5. Look in your email for the schedule for the assignments." 
+
+He goes into the 3.1 (or 4.1 if in 5th edition);
+
+3.1	If condition Then	}
+		statement	} This is pseudocode, not actual code!
+		statement	}
+	End if			}
+
+Understand the different Relational Operators, p.s. in Python 1 equal sign, (=) means assignment, (==) means ..., and (===) means ...
+
+3.1 	Wording matters when doing the pseudocode of decision structures: 
+	- If temperature is less than 40 (<), ...
+	- If temperature is not less than 40 (>), ...
+
+3.3 	Understand what pseudocode is prompting the user or doing:
+	- Line 5: a print function
+	- Line 9: a comment 
+	- Line 10: A Boolean statement
+
+He went over Big O, you can research what it is and watch videos that go indepth on this concept.
+"We'll do sorts, bubble sorts, ... its will be on the Midterm so study it.
+
+
+3.4	The "if then else if" statements can be nested to make it simplier to write.
+
+3.5	"We'll go over Case (more indepth) when we go over Menus." It's an in-out kind of situation.
+
+3.6	Logical Operators: 
+	- AND -- Both conditios must be true; 
+		Example: If temperature < 20 AND minutes > 12 Then
+				Display "The temperature is in the danger zone."
+			 End if
+	- OR  -- Either condition must be true;
+		Example: If temperature < 20 OR temperature > 100 Then
+				Display "The temperature is in the danger zone."
+			 End if
+	- NOT -- 
+
+3.6	Short-Cicuit Eval:
+	- If one side of the AND expression is False, then the other side won't be checked because it goes against what the AND operator is.
+	- If the one side of the OR expression is True, then the other side will left unchecked.
+
+Range Checks just checks range. Pretty simple.
+
+
+Introduction to elif, one way to do nested statements in python. You can use elif multiple times vs using if blocks multiple times. "If all the other blocks don't work, it goes back to default."
+
+After Lecture, we worked on our own programs and some homework from Lab 5.
